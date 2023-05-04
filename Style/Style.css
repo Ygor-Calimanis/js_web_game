@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 160%;
+    overflow-y: hidden;
+}
+
+html {
+    font-family: 'Inter', sans-serif;
+    background-image: linear-gradient(to left, rgb(255, 0, 0), rgb(0, 184, 233));
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+canvas {
+    border: 3px solid black;
+    background-image: url(../img/GALACTA.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.game {
+    width: 705.5px;
+    display: flex;
+    flex-direction: column;
+    margin: 4% auto;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+}
+
+p {
+    color: white;
+    margin-top: 2%;
+}
+
+.sumiu {
+    display: none;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 184, 233));
+}
+
+.blue,
+.red,
+.score {
+    display: flex;
+    padding: 2%;
+}

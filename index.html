@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/Style.css">
+    <link rel="shortcut icon" href="img/ico.png" type="image/x-icon">
+    <title>Sprint - 4</title>
+</head>
+
+<body>
+
+    <main>
+
+        <h1>Dragon Questy</h1>
+        <div class="instrucoes">
+            <p>Instruções do jogo:
+                <br>
+                Dragrão Azul: utilzar setas do teclado
+                <br>
+                Dragrão Vermelho: utilizar W-A-S-D
+            </p>
+        </div>
+
+        <!-- ? placar de pontos -->
+        <section class="game">
+
+            <div class="scoreboard">
+
+                <div class="red">
+                    <p>Red Life = &nbsp;</p>
+                    <p id="redLife"></p>
+                </div>
+                <div class="score">
+                    <p id="result">resultado</p>
+                </div>
+                <div class="blue">
+                    <p>Blue Life = &nbsp;</p>
+                    <p id="blueLife"> </p>
+                </div>
+
+            </div>
+            <!-- * arena de combate -->
+            <canvas id="myCanvas" width="700" height="300"></canvas>
+
+        </section>
+
+    </main>
+
+    <!-- + img dos robos -->
+    <img id="drag1" class="sumiu" src="img/drag1.png" alt="">
+    <img id="drag2" class="sumiu" src="img/drag2.png" alt="">
+
+    <!-- $ linkando o script -->
+    <script src="./js/wasd.js"></script>
+</body>
+
+</html>
